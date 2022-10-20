@@ -1,0 +1,333 @@
+
+.obshi{
+    background-color:#f0f5f5;
+    padding: 40px;  
+    display: flex;
+}
+.first{
+    background-color:#FFFFFF ;
+    border-radius: 10px; 
+    flex-wrap: wrap;
+    padding: 95px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/four_foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: 70%;
+    width: 100%;
+    position: relative;
+    background-position: center;
+}
+
+.text1{
+    font-family: 'Montserrat';
+    width: 40%;
+}
+
+
+.text1 h1{
+    font-size: 40px;
+}
+
+style{
+    bottom: 100%;
+    height: 50%;
+}
+.text p{
+    font-family: 'Inter Tight';
+    display: flex;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+}
+.text{
+    background-color: #F6F4FF;
+    border-radius: 10px;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.12);
+    width: 30%;
+    position: absolute;
+    bottom: 95px;
+    right: 95px;
+    display: flex;
+    
+}
+.border .text{
+    border-bottom: 10px solid #3685FB;
+}
+/*.text .border{
+    border-bottom: 10px solid #3685FB;
+    width: 100%;
+    border-radius: 10px;
+}*/
+.t1 > div{
+    max-height: 100%;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.blok2{
+    margin-top: 20px;
+}
+
+
+.text2{
+    font-family: 'Montserrat';
+    max-width: 10%;
+    font-size: 40px;
+}
+.img1{
+    max-width: 100%;
+    height:900px ; 
+    background-image: url(img/Rectangle36.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text3 p{
+    font-family: 'Montserrat';
+    background: linear-gradient(90deg, #E246EF 0%, #469EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}  
+.text3{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    bottom: 70px;
+}
+.blok3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    width: 100%;
+}
+.chast1{
+    background-image: url(img/crug.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    
+}
+
+.img h1{
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    justify-content: space-around;
+}
+.box{
+    background: #FFFFFF;
+    border: 2px solid #AAAAAA;
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+    font-family: 'Montserrat';
+    padding: 10px;
+    color: #AAAAAA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.box2{
+    width: 30%;
+    background: #3685FB;
+    border-radius: 7px;
+    height: 40px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.chast2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 107px 119px 116px 81px;
+}
+.razdel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 60%;
+    
+}
+.razdel h1{
+    font-family: 'Montserrat';
+    align-content: space-around;
+}
+.razdel p{
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.ch1{
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: column;
+}
+.chapter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ch2{
+    display: flex;
+    flex-direction: column;
+}
+.ch3{
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: column;
+}
+.chapter6{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.ch4{
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 10%;
+}
+.ch4 .nature{
+    color: #3685FB;
+    font-size: 20px;
+}
+.ch4 .text4{
+    color: #898989;
+    
+}
+.web{
+    display: flex;
+    gap: 40px;
+}
+.ch5{
+    display: flex;
+    gap: 50px;
+    margin: 100px 400px 0px 20px;
+    font-family: 'Inter Tight';
+    font-size: 8px;
+    border-width: 100%;
+    border-top: 1px solid #AAAAAACC;
+    padding-top: 40px;
+    width: 100%;
+}
+.n1{
+    display: flex;
+}
+    
+
+
+
+
+
+@media (max-width: 1024px) and (min-width: 768px){
+   
+    
+    .text1{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:767px){
+   
+    .text1{
+        font-size: 15px;
+    }
+    .text1 h1 {
+        font-size: 20px;
+    }
+    .text{
+        bottom: 45px;
+        right: 15px;
+        width: 80%;
+
+    }
+    .first{
+        padding: 0px;
+    }
+    .obshi{
+        width: 80%;
+    }
+    .text2{
+        font-size: 20px;
+        max-width: none;
+    }
+    .box{
+        font-size: 10px;
+        width: 40%;
+        height: 30px;
+    }
+    .img h1{
+        font-size: 20px;
+    }
+    .chast1{
+        height: 400px;
+    }
+    .chast2{
+        padding: 0px;
+    }
+    .razdel h1 {
+        font-size:40px ;
+    }
+    .razdel{
+       flex-direction: column;
+      
+    }
+    .t1 img{
+        font-size: 10px;
+        width: 60px;
+    }
+    .t1 > div{
+        max-height: 50%;
+    }
+    .t1{
+        height: 100px;
+    }
+    .text p{
+        font-size: 13px;
+    }
+    .text3{
+        width: auto;
+    }
+        
+    
+}
+
+
+
