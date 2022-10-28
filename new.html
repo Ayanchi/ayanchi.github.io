@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="containerSlide">
+        <div class="mySlides fade">
+            <div class="numberOfText"> 1/3</div>
+            <img class="image" src="https://supara.kg/wp-content/uploads/2017/03/gallery-interrior.png" >
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberOfText"> 2/3</div>
+            <img class="image" src="https://supara.kg/wp-content/uploads/2017/03/gallery-rest.png" >
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberOfText"> 3/3</div>
+            <img class="image" src="https://supara.kg/wp-content/uploads/2017/03/gallery-guest.png" >
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <div style="text-align:center ;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="text">
+
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event,'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event,'Tokyo')">Tokyo</button>
+    </div>
+
+    
+      
+    <div id="Paris" class="tabcontent">
+        <h3>отзывы :)</h3>
+        <p>хороший товар</p>
+    </div>
+    
+    <div id="Tokyo" class="tabcontent">
+        <h3>вопросы ;)</h3>
+        <div class="vopros">
+            <h1>Задайте вопрос клиентам, купившим этот товар</h1>
+            <span>После проверки ваш вопрос будет опубликован в этом разделе и отправлен пользователям, которые уже совершили покупку. Когда поступит ответ - вам придет уведомление.</span>
+            <br>
+            <input type="qw" id="qw" placeholder="ваш вопрос">
+            <button class="buttom">ОТПРАВИТЬ</button>
+            <div id="com"></div>
+        </div>
+    </div>
+
+    <script src="new.js"></script>
+</body>
+</html>
