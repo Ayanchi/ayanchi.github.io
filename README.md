@@ -1,2 +1,0 @@
-# ayanchi.github.io
-.new
